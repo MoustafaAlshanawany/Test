@@ -62,7 +62,7 @@ padding: auto 30px;
 /* ___________________________________start style section2_____________________________________ */
 
 .section2{
-    height: 80vh;
+    height: auto;
     
 }
 .img-fluid{
@@ -78,10 +78,12 @@ margin-top: 20px;
 margin-left: 10px;
 }
 
+/* ___________________________________End style section2_____________________________________ */
+/* ___________________________________Start style section3_____________________________________ */
 
 .section3{
     
-    height:70vh;
+    height:auto;
     background-color:#f2f9f8;
     justify-content: space-between;
 }
@@ -93,22 +95,33 @@ margin-left: 10px;
     font-weight: 500;
     color: #bbbdbd;
 }
-/* ___________________________________End style section2_____________________________________ */
+/* ___________________________________End style section3_____________________________________ */
 
-/* ___________________________________start style section2_____________________________________ */
+/* ___________________________________start style section4_____________________________________ */
 
 .section4{
-    height: 80vh;
-}
-.tab-pane{
-    
+    height: auto;
 }
 
+/* ___________________________________End style section4_____________________________________ */
+
+/* ___________________________________Start style section5_____________________________________ */
+
+.section5{
+    height: 100vh;
+    background-color: rgb(242,249,248);
+}
+.section5 .header{
+    text-align: center;
+}
+.section5  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
 
 
 
-
-
-/* ___________________________________End style section2_____________________________________ */
+/* ___________________________________End style section5_____________________________________ */
