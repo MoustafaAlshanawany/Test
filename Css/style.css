@@ -1,36 +1,46 @@
-
-
 /* ___________________________________start style section1_____________________________________ */
 
-.section1{
-    height: 100vh;
+.section1 {
+    height: auto;
     background-image: url(../img/pexels-vecislavas-popa-1571460.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-.navbar-light .navbar-nav .nav-link { 
+
+.section1 .navbar {
+    background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
     color: white;
     margin: 2px 15px;
 }
-.container-fluid{
+
+.container-fluid {
     padding-right: 0px;
     padding-left: 0px;
 }
-.navbar-collapse{
-justify-content: end;
-padding: auto 30px;
-}
-.dropdown-menu{
+
+.navbar-collapse {
     justify-content: end;
-padding: auto 30px;
+    padding: auto 30px;
 }
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: white;}
-.navbar-brand{
+
+.dropdown-menu {
+    justify-content: end;
+    padding: auto 30px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-brand {
     margin-left: 50px
 }
 
-.section1 .layout{
+.section1 .layout {
     height: 92vh;
     background-color: rgba(0, 0, 0, .5);
     position: relative;
@@ -38,7 +48,7 @@ padding: auto 30px;
 
 }
 
-.section1 .layout .content{
+.section1 .layout .content {
     width: 100%;
     height: 30%;
     /* background-color: blue; */
@@ -47,11 +57,13 @@ padding: auto 30px;
     text-align: center;
     font-weight: 300;
 }
-.section1 .layout .content h1{
+
+.section1 .layout .content h1 {
     font-size: 60px;
     color: white;
 }
-.section1 .layout .content p{
+
+.section1 .layout .content p {
     font-size: 30px;
     color: #bebabb;
 }
@@ -61,72 +73,453 @@ padding: auto 30px;
 
 /* ___________________________________start style section2_____________________________________ */
 
-.section2{
+.section2 {
     height: auto;
-    
+
 }
-.img-fluid{
+
+.img-fluid {
     margin-top: 100px;
-   
+
     height: auto;
 }
 
-.pic{
+.pic {
     width: 75px;
-height: 75px;
-margin-top: 20px;
-margin-left: 10px;
+    height: 75px;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 /* ___________________________________End style section2_____________________________________ */
 /* ___________________________________Start style section3_____________________________________ */
 
-.section3{
-    
-    height:auto;
-    background-color:#f2f9f8;
+.section3 {
+
+    height: auto;
+    background-color: #f2f9f8;
     justify-content: space-between;
 }
 
-.section3 h6{
+.section3 h6 {
     font-size: 30px;
 }
-.section3 p{
+
+.section3 p {
     font-weight: 500;
     color: #bbbdbd;
 }
+
 /* ___________________________________End style section3_____________________________________ */
 
 /* ___________________________________start style section4_____________________________________ */
 
-.section4{
+.section4 {
     height: auto;
+}
+
+.section4 .row {
+    margin-top: 200px;
+}
+
+.section4 .row .partpic {
+    justify-content: end;
 }
 
 /* ___________________________________End style section4_____________________________________ */
 
 /* ___________________________________Start style section5_____________________________________ */
 
-.section5{
-    height: auto;
-    background-color: rgb(242,249,248);
+.section5 {
+    height: 86vh;
+    background-color: rgb(242, 249, 248);
 }
-.section5 .header{
+
+.section5 .header {
     text-align: center;
+
 }
-.section5  .cards{
+
+.section5 .header h1 {
+    margin-top: 30px;
+}
+
+.section5 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.section5 .cards .card {
+    border-radius: 10px;
+    height: 30vh;
+    width: 25%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.icon1 {
+    color: #fe689a;
+    font-size: 50px;
+}
+
+.icon2 {
+    color: #3fccc6;
+    font-size: 50px;
+}
+
+.icon3 {
+    color: #40ce2e;
+    font-size: 50px;
+}
+
+.icon4 {
+    color: #2383ff;
+    font-size: 50px;
+}
 
 /* ___________________________________End style section5_____________________________________ */
 
 
 /* ___________________________________Start style section 6 _____________________________________ */
+.section6 {
+
+    height: 80vh;
 
 
+}
+
+.section6 .header2 {
+    text-align: center;
+
+}
+
+.cards2 {
+    justify-content: space-between;
+}
+
+.bk {
+    height: 250px;
+    background-color: #eff6f7;
+}
+
+.img2 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+.section6 .cards2 .Texth1 h1 {
+    font-size: medium;
+    text-align: left;
+}
+
+.section6 .cards2 .Texth1 h3 {
+    font-size: small;
+    text-align: left;
+    color: #afafae;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/* ___________________________________End style section 6________________________________________ */
+/* ___________________________________Start style section 7 _____________________________________ */
+
+.section7 {
+    height: auto;
+    width: 100%;
+    background-color: #f3f8f8;
+}
 
 
-/* ___________________________________End style section 6_____________________________________ */
+.section7 .header p {
+    color: #525253;
+    margin: 20px 0px;
+}
+
+.section7 .header h1 {
+    color: #274741;
+    font-weight: 100;
+}
+
+.section7 .nav {
+    justify-content: center;
+}
+
+.section7 .nav-item {
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #20ad93 !important;
+}
+
+.nav-pills .nav-link {
+    color: black !important;
+    font-weight: 600;
+}
+
+.section7 .li1 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.section7 .li2 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/* _____________ */
+
+.parent {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    background-image: url(../img/Portfolio/img1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.parent::before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 30px;
+    bottom: 30px;
+    right: 30px;
+    left: 30px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.parent:hover::before {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 1;
+}
+
+.parent .child {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5;
+    color: white;
+}
+
+.parent .child h1 {
+    font-size: 20px;
+    margin-top: 100px;
+
+}
+
+.parent .child h3 {
+    font-size: 15px;
+}
+
+.parent:hover .child {
+    opacity: 1;
+}
+
+.parent .child::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 40px;
+    left: 40px;
+    border-top: white solid 3px;
+    border-left: white solid 3px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.parent .child::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 40px;
+    border-bottom: white solid 3px;
+    border-right: white solid 3px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.parent:hover .child::before {
+    top: 15px;
+    left: 15px;
+    opacity: 1;
+}
+
+.parent:hover .child::after {
+    bottom: 15px;
+    right: 15px;
+    opacity: 1;
+}
+
+.porto2 {
+    background-image: url(../img/Portfolio/portfolio-2.jpg);
+    background-size: 100% 100%;
+}
+
+.porto3 {
+    background-image: url(../img/Portfolio/portfolio-3.jpg);
+    background-size: 100% 100%;
+}
+
+.porto4 {
+    background-image: url(../img/Portfolio/portfolio-4.jpg);
+    background-size: 100% 100%;
+}
+
+.porto5 {
+    background-image: url(../img/Portfolio/portfolio-5.jpg);
+    background-size: 100% 100%;
+}
+
+.porto6 {
+    background-image: url(../img/Portfolio/portfolio-6.jpg);
+    background-size: 100% 100%;
+}
+
+.porto7 {
+    background-image: url(../img/Portfolio/portfolio-7.jpg);
+    background-size: 100% 100%;
+}
+
+.porto8 {
+    background-image: url(../img/Portfolio/portfolio-8.jpg);
+    background-size: 100% 100%;
+}
+
+.porto9 {
+    background-image: url(../img/Portfolio/portfolio-9.jpg);
+    background-size: 100% 100%;
+}
+
+/* _____________ */
+/* ___________________________________End style section 7________________________________________ */
+/* ___________________________________Start style section 8________________________________________ */
+.section8 {
+    height: 75vh;
+}
+
+.section8 .header h1 {
+    font-weight: 200;
+    color: #4a6560;
+}
+
+.section8 .header p {
+    color: #4a6560
+}
+
+.section8 .linked-1 {
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/Linked/team-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+
+}
+
+.section8 .linked-1 h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.section8 .linked-1 h3 {
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+
+
+.section8 .linked-1 .left {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+
+    transition: all 0.5s;
+
+}
+
+.section8 .linked-1:hover .section8 .linked-1 .left {
+    width: 0%;
+}
+
+.section8 .linked-1 .bottom {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    right: 0px;
+    bottom: 0px;
+}
+
+.section8 .linked-1:hover .section8 .linked-1 .bottom {
+    height: 0%;
+}
+
+.section8 .pic2 {
+    background-image: url(../img/Linked/team-2.jpg);
+    background-size: 100% 100%;
+}
+
+.section8 .pic3 {
+    background-image: url(../img/Linked/team-3.jpg);
+    background-size: 100% 100%;
+}
+
+.section8 .pic4 {
+    background-image: url(../img/Linked/team-4.jpg);
+    background-size: 100% 100%;
+}
+
+.section8 .i {
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
+.section8 .i i {
+    margin: 15px;
+}
+
+/* ___________________________________End style section 8________________________________________ */
+/* ___________________________________Start style section 9________________________________________ */
+.section9 {
+    height: 100vh;
+    background-color: #f2f9f8;
+}
+
+.section9 .header h1 {
+    font-weight: 200;
+    color: #556e6b;
+}
+
+.section9 .header p {
+    color: #7c7f7e;
+}
+
+.section9 .dlist .card{
+    color: #43474c;
+}
+/* ___________________________________End style section 9________________________________________ */
